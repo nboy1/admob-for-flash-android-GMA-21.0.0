@@ -217,7 +217,7 @@ This Admob ANE  was a monetization ANE plugin for Flash Air community,More peopl
 ## Links
 
 Download lilili87222 ane  https://github.com/lilili87222/admob-for-flash/archive/master.zip    
-Download nboy1 updated ane  https://github.com/lilili87222/admob-for-flash/archive/master.zip    
+Download nboy1 updated ane  [https://github.com/nboy1/admob-for-flash-android-GMA-21.0.0]    
 admob http://apps.admob.com    
 
 ## License
