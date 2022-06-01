@@ -4,21 +4,60 @@ this is admob for flash android ANE and it is a personnel update to  " lilili872
 
 Admob ANE for Flash Air
 ==============================
+0. [Change log](#change-log)   
+	1.[Interstitial changes](#1interstitial-changes)     
+	2.[Rewarded video changes](#2rewarded-video-changes)    
+
+
+
 1. [Admob ANE Description](#admob-ane-description)
 2. [Admob ANE For Air Features](#admob-ane-for-air-features)
 3. [Quick Start](#quick-start)    
 	1.[Init Admob ANE ](#1init-admob-ane)     
-	2.[Add Admob Banner in adobe Air App](#2add-admob-banner-in-adobe-air-app)    
+	2.[Add Admob Banner in adobe Air App](#2add-admob-banner-in-adobe-air-app)      
 	3.[Remove Banner](#3remove-banner)    
 	4.[Admob ANE Show Interstitial](#4admob-ane-show-interstitial )     
 	5.[Set Admob Target Param](#5set-admob-target-param)    
-  6.[Admob Rewarded Video](#6admob-rewarded-video)       
+        6.[Admob Rewarded Video](#6admob-rewarded-video)       
 	7.[android permission config](#7android-permission-config)    
 	8.[Screen size function](#8screen-size-function)    
 	9.[ANE ID](#9ane-id)    
 4. [Screenshots](#screenshots)
 5. [Links](#links)
 6. [License](#license)
+
+## Change-log
+#### 1.Interstitial changes
+
+in the interstitial the "isInterstitialReady()" is deprecated.
+```
+     if (Admob.getInstance().isInterstitialReady()) {
+      Admob.getInstance().showInterstitial();
+     }
+
+```
+
+use directly showInterstitial(); without if statement. 
+```
+    Admob.getInstance().showInterstitial();
+
+```
+#### 2.Rewarded video changes
+in the rewarded video the "isVideoReady()" is deprecated.
+```
+     if(admob.isVideoReady()){
+	admob.showVideo();
+      }
+
+```
+
+use directly showVideo(); without if statement. 
+```
+    Admob.getInstance().showVideo();
+
+```
+
+
 
 ## Admob ANE Description
 Admob Air Native Extention(Admob ANE) provides a way to integrate admob ads in Air ios and Air Android Game and app.
