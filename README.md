@@ -108,7 +108,9 @@ Here is the minimal  code to create an interstitial.
 show interstitials.
 ```
   
+       if (Admob.getInstance().isInterstitialReady()) {
       Admob.getInstance().showInterstitial();
+    }
     
 ```
 
@@ -135,7 +137,9 @@ Here the setting to load a video:
 Here the setting to show video:
 ```
 
+	if(admob.isVideoReady()){
 	admob.showVideo();
+      }
 
 
 
