@@ -39,7 +39,7 @@ Admob ANE for Flash Air
 
 
 #### 2.Rewarded video changes
-"isVideoReady()" is now back and you can use it again to check if interstitial is loaded.
+"isVideoReady()" is now back and you can use it again to check if Rewarded ad is loaded.
 ```
      if(admob.isVideoReady()){
 	admob.showVideo();
