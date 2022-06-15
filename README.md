@@ -29,7 +29,7 @@ Admob ANE for Flash Air
 ## Change-log
 #### 1.Interstitial changes
 
-in the interstitial the "isInterstitialReady()" is deprecated.
+ "isInterstitialReady()" is now back and you can use it again to check if interstitial is loaded.
 ```
      if (Admob.getInstance().isInterstitialReady()) {
       Admob.getInstance().showInterstitial();
@@ -37,13 +37,9 @@ in the interstitial the "isInterstitialReady()" is deprecated.
 
 ```
 
-use directly showInterstitial(); without if statement. 
-```
-    Admob.getInstance().showInterstitial();
 
-```
 #### 2.Rewarded video changes
-in the rewarded video the "isVideoReady()" is deprecated.
+"isVideoReady()" is now back and you can use it again to check if interstitial is loaded.
 ```
      if(admob.isVideoReady()){
 	admob.showVideo();
@@ -51,11 +47,6 @@ in the rewarded video the "isVideoReady()" is deprecated.
 
 ```
 
-use directly showVideo(); without if statement. 
-```
-    Admob.getInstance().showVideo();
-
-```
 
 
 
