@@ -41,9 +41,10 @@ Admob ANE for Flash Air
 #### 2.Rewarded video changes
 "isVideoReady()" is now back and you can use it again to check if Rewarded ad is loaded.
 ```
-     if(admob.isVideoReady()){
-	admob.showVideo();
-      }
+      if(Admob.getInstance().isVideoReady())
+         {
+            Admob.getInstance().showVideo();
+         }
 
 ```
 
@@ -132,14 +133,15 @@ If you want to test the ads or the your app with children target,you can set wit
     
 Here the setting to load a video:
 ```
-	admob.cacheVideo(videoID);
+	Admob.getInstance().cacheVideo(videoID);
 
 Here the setting to show video:
 ```
 
-	if(admob.isVideoReady()){
-	admob.showVideo();
-      }
+	if(Admob.getInstance().isVideoReady())
+         {
+            Admob.getInstance().showVideo();
+         }
 
 
 
@@ -196,7 +198,7 @@ Admob.getInstance().getScreenSize()
 <extensionID>so.cuo.platform.admob</extensionID>
 ```
 
-## version 20220601
+## version 20220727
 1.update admob sdk to 21.0.0    
 
 
