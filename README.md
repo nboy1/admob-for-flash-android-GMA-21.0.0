@@ -52,9 +52,9 @@ Admob ANE for Flash Air
 
 
 ## Admob ANE Description
-Admob Air Native Extention(Admob ANE) provides a way to integrate admob ads in Air ios and Air Android Game and app.
-You can use it for Air iOS and Android App with the same actionscript  code,not need any change ,not need java
-or oc.You not need Admob ANE for ios and Admob ANE for android Separate version any more with this Ane.
+Admob Air Native Extention(Admob ANE) provides a way to integrate admob ads in Air Android Game and app.
+You can use it for Android App with the same actionscript  code,not need any change ,not need java
+or oc.
 
 The Google Mobile Ads SDK is the latest generation in Google mobile advertising featuring refined ad formats and streamlined APIs for access to mobile ad networks and advertising solutions. The SDK enables Air mobile app developers to maximize their monetization in native mobile apps.
 
